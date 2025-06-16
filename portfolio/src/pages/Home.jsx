@@ -3,6 +3,7 @@ import React from "react";
 import "../index.css";
 import { StarBackground } from "../components/StarBackground";
 import { Navbar } from "../components/Navbar";
+import { HeroSection } from "../components/HeroSection";
 
 export const Home = () => {
   return (
@@ -14,7 +15,9 @@ export const Home = () => {
       {/* Nav Bar*/}
       <Navbar />
       {/* main content*/}
-
+      <main>
+        <HeroSection />
+      </main>
       {/* Footer*/}
     </div>
   );
