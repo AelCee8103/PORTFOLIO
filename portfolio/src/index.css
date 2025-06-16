@@ -59,7 +59,7 @@ opacity: 0.8;
     opacity: 1;
   }
   100% {
-    transform: rotate(215deg) translateX(-500);
+    transform: rotate(215deg) translateX(-500px);
     opacity: 0;
   }
 }
@@ -87,7 +87,7 @@ opacity: 0.8;
 
   }
 
-  :dark{
+  .dark{
     --background: 222 47% 4%;
      --foreground: 213 31% 91%;
 
@@ -154,7 +154,9 @@ border: 1px solid transparent;
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139, 92, 246, 0.5)] hover:scale-105 active:scale-95;
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
+  transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] 
+  hover:scale-105 active:scale-95;
  
 }
 

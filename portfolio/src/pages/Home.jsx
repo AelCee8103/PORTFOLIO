@@ -1,6 +1,8 @@
 import { ThemeToggle } from "../components/ThemeToggle";
 import React from "react";
-import "../index.css"; // Ensure this path is correct based on your project structure
+import "../index.css"; 
+import { StarBackground } from "../components/StarBackground";
+
 
 export const Home = () => {
   return (
@@ -8,7 +10,7 @@ export const Home = () => {
       {/* Theme Toggle */}
       <ThemeToggle />
       {/* Background Effects */}
-
+      <StarBackground />
       {/* Nav Bar*/}
 
       {/* main content*/}
